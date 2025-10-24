@@ -66,14 +66,14 @@ for i in range(n):
     nilai = float(input(f"Masukkan data ke-{i+1}: "))
     data.append(nilai)
 
-# Proses pengurutan manual (bubble sort)
+## Proses pengurutan manual (bubble sort)
 for i in range(len(data)):
     for j in range(0, len(data)-i-1):
         if data[j] > data[j+1]:
             data[j], data[j+1] = data[j+1], data[j]
 
 print("Data setelah diurutkan:", data)
-# Penjelasan:
+## Penjelasan:
 Program membaca sejumlah data, lalu mengurutkannya dengan algoritma bubble sort agar konsep perulangan dan kondisi digunakan secara eksplisit.
 
  # Lab 3 - Perulangan
@@ -83,7 +83,7 @@ Soal:
 Buat program dengan perulangan bertingkat (nested for) yang menghasilkan pola bintang.
 
 Kode Jawaban (contoh pola segitiga bintang):
-# Latihan 1: Nested for pattern
+## Latihan 1: Nested for pattern
 print("Program pola segitiga bintang")
 n = int(input("Masukkan tinggi segitiga: "))
 
