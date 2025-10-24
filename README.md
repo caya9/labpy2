@@ -26,7 +26,7 @@ Praktikum 2 (labpy2)
 └── latihan2.py
 
 #  LAB 2 – STRUKTUR KONDISI
-# 🔹 Latihan 1 – Menentukan Bilangan Terbesar
+## 🔹 Latihan 1 – Menentukan Bilangan Terbesar
 Deskripsi:
 Membuat program untuk menentukan bilangan terbesar dari empat bilangan input.
 
@@ -49,10 +49,10 @@ if d > terbesar:
     terbesar = d
 
 print("Bilangan terbesar adalah:", terbesar)
-# Penjelasan
+### Penjelasan
 Program menggunakan struktur if berurutan untuk membandingkan nilai setiap bilangan dan menyimpan nilai terbesar.
 
-# 🔹 Latihan 2 – Mengurutkan Bilangan
+## 🔹 Latihan 2 – Mengurutkan Bilangan
 Deskripsi:
 Membuat program untuk mengurutkan tiga bilangan dari terkecil ke terbesar.
 
@@ -66,14 +66,14 @@ for i in range(n):
     nilai = float(input(f"Masukkan data ke-{i+1}: "))
     data.append(nilai)
 
-## Proses pengurutan manual (bubble sort)
+### Proses pengurutan manual (bubble sort)
 for i in range(len(data)):
     for j in range(0, len(data)-i-1):
         if data[j] > data[j+1]:
             data[j], data[j+1] = data[j+1], data[j]
 
 print("Data setelah diurutkan:", data)
-## Penjelasan:
+### Penjelasan:
 Program membaca sejumlah data, lalu mengurutkannya dengan algoritma bubble sort agar konsep perulangan dan kondisi digunakan secara eksplisit.
 
  # Lab 3 - Perulangan
